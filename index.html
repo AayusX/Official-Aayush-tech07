@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAYUSH TECH - CYBER MATRIX | Ultimate Digital Experience</title>
+    
+    <meta name="description" content="Enter the cyber matrix - Aayush Tech's ultimate digital experience with 3D holograms, neon effects, and mind-blowing animations.">
+    <meta name="keywords" content="cyberpunk, holographic, 3D effects, neon, matrix, futuristic web design">
+    
+    <!-- Performance: Preconnect & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/images/techno.jpg">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Cyber Beast CSS -->
+    <link rel="stylesheet" href="assets/css/ultimate-beast.css">
+    
+    <!-- Cyber Tools CSS -->
+    <link rel="stylesheet" href="assets/css/cyber-tools.css">
+    
+    <meta name="theme-color" content="#00f5ff">
+    <!-- Shared site enhancements -->
+    <script src="assets/js/site.js" defer></script>
+    
+    <!-- Notification System -->
+    <link rel="stylesheet" href="assets/css/notifications.css">
+    <script src="assets/js/notification-manager.js" defer></script>
+    <script src="api/check-updates.js" defer></script>
+    
+    <!-- Cyber Tools JavaScript -->
+    <script src="assets/js/cyber-tools.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#home">Skip to content</a>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Matrix Rain Effect -->
+    <div class="matrix-rain"></div>
+    
+    <!-- Cyber Grid -->
+    <div class="cyber-grid"></div>
+
+    <!-- Demo notification function -->
+    <script>
+        function showDemoNotification() {
+            if (window.notificationManager) {
+                window.notificationManager.notify(
+                    'Demo Notification',
+                    'This is a test notification to demonstrate the new notification system!',
+                    'info'
+                );
+            } else {
+                // Fallback if notification manager isn't loaded yet
+                alert('Notification system is loading... Please try again in a moment.');
+            }
+        }
+        
+        function showUpdateDemo() {
+            if (window.notificationManager) {
+                window.notificationManager.notifyUpdate(
+                    'New Feature Available!',
+                    'Check out the latest updates and improvements to AAYUSH TECH.'
+                );
+            }
+        }
+    </script>
+
+    <!-- Ultimate Loading Screen -->
+    <div class="ultimate-loading">
+        <div class="loading-container">
+            <div class="cyber-loader">
+                <div class="loader-ring"></div>
+                <div class="loader-ring"></div>
+                <div class="loader-ring"></div>
+                <div class="loader-core"></div>
+            </div>
+            <div class="loading-text">INITIALIZING CYBER MATRIX...</div>
+            <div class="loading-progress">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress">
+        <div class="progress-bar"></div>
+    </div>
+
+    <!-- Enhanced Cyber Navigation -->
+    <header class="cyber-nav">
+        <div class="nav-container">
+            <a href="index.html" class="cyber-logo">
+                <div class="logo-icon">
+                    <div class="logo-glow"></div>
+                    <img src="assets/images/techno.jpg" alt="logo">
+                    <div class="logo-pulse"></div>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main">AAYUSH TECH</span>
+                    <span class="logo-subtitle">CYBER MATRIX</span>
+                </div>
+            </a>
+            
+            <nav class="cyber-menu-container">
+                <ul class="cyber-menu">
+                    <li class="menu-item">
+                        <a href="index.html" class="cyber-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                            <div class="link-glow"></div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html" class="cyber-link">
+                            <i class="fas fa-brain"></i>
+                            <span>About</span>
+                            <div class="link-glow"></div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="services.html" class="cyber-link">
+                            <i class="fas fa-cogs"></i>
+                            <span>Services</span>
+                            <div class="link-glow"></div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="members.html" class="cyber-link">
+                            <i class="fas fa-users"></i>
+                            <span>Members</span>
+                            <div class="link-glow"></div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="blog-cyber.html" class="cyber-link">
+                            <i class="fas fa-blog"></i>
+                            <span>Blog</span>
+                            <div class="link-glow"></div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="petition-cyber.html" class="cyber-link">
+                            <i class="fas fa-file-signature"></i>
+                            <span>Petition</span>
+                            <div class="link-glow"></div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#tools" class="cyber-link">
+                            <i class="fas fa-tools"></i>
+                            <span>Tools</span>
+                            <div class="link-glow"></div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contact.html" class="cyber-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contact</span>
+                            <div class="link-glow"></div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="contact.html" class="nav-cta">
+                    <div class="cta-glow"></div>
+                    <i class="fas fa-bolt"></i>
+                    <span>CONNECT</span>
+                </a>
+                
+                <!-- Enhanced notification button -->
+                <button class="demo-notification-btn" onclick="showDemoNotification()">
+                    <div class="btn-glow"></div>
+                    <i class="fas fa-bell"></i>
+                    <span>Test</span>
+                    <div class="notification-pulse"></div>
+                </button>
+                
+                <!-- Quick access menu -->
+                <div class="quick-menu">
+                    <button class="quick-menu-toggle">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <div class="quick-menu-dropdown">
+                        <a href="#tools" class="quick-item">
+                            <i class="fas fa-calculator"></i>
+                            <span>Calculator</span>
+                        </a>
+                        <a href="#tools" class="quick-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Calendar</span>
+                        </a>
+                        <a href="#tools" class="quick-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Color Picker</span>
+                        </a>
+                        <a href="#tools" class="quick-item">
+                            <i class="fas fa-key"></i>
+                            <span>Password Gen</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        
+        <!-- Navigation progress bar -->
+        <div class="nav-progress">
+            <div class="progress-fill"></div>
+        </div>
+    </header>
+
+    <!-- Ultimate Hero Section -->
+    <section id="home" class="ultimate-hero">
+        <div class="hero-3d-scene">
+            <div class="floating-cubes"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="cyber-badge">
+                    <i class="fas fa-microchip"></i>
+                    NEURAL INTERFACE ACTIVE
+                </div>
+                
+                <h1 class="cyber-title">
+                    ENTER THE<br>
+                    CYBER MATRIX<br>
+                    OF TOMORROW
+                </h1>
+                
+                <p class="cyber-subtitle">
+                    Experience the future of digital innovation where reality merges with virtual dimensions. 
+                    Our quantum-powered solutions transcend the boundaries of traditional technology.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#services" class="cyber-btn">
+                        INITIALIZE SYSTEM <i class="fas fa-rocket"></i>
+                    </a>
+                    <a href="#tools" class="cyber-btn secondary">
+                        QUANTUM TOOLS <i class="fas fa-tools"></i>
+                    </a>
+                    <button class="cyber-btn update-demo" onclick="showUpdateDemo()">
+                        <i class="fas fa-rocket"></i> DEMO UPDATE
+                    </button>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="holographic-display">
+                    <div class="display-content">
+                        <div class="display-title">QUANTUM CORE ONLINE</div>
+                        <div class="display-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">∞</div>
+                                <div class="stat-label">POSSIBILITIES</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">100</div>
+                                <div class="stat-label">% UPTIME</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">1.21</div>
+                                <div class="stat-label">GW POWER</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">∆∇</div>
+                                <div class="stat-label">QUANTUM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cyber About Section -->
+    <section id="about" class="section animate-fade-in">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-brain"></i>
+                    NEURAL NETWORK ANALYSIS
+                </div>
+                <h2 class="section-title">MATRIX ARCHITECTURE</h2>
+                <p class="section-subtitle">
+                    We are digital architects of the cyber realm, crafting experiences that exist beyond the physical world
+                </p>
+            </div>
+            
+            <div class="grid grid-2 gap-8">
+                <div class="card hover-glow">
+                    <div class="card-header">
+                        <h3>QUANTUM PROCESSING UNIT</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Our advanced neural networks process information at quantum speeds, enabling us to create digital experiences that transcend reality.</p>
+                        
+                        <div class="cyber-stats mt-6">
+                            <div class="stat-item">
+                                <div class="stat-number counter" data-target="999">999</div>
+                                <div class="stat-label">Quantum Operations/sec</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number counter" data-target="100">100</div>
+                                <div class="stat-label">% Neural Efficiency</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card hover-glow">
+                    <div class="card-header">
+                        <h3>HOLOGRAPHIC INTERFACE</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Experience next-generation user interfaces that blend seamlessly between digital and physical realms through advanced holographic projection.</p>
+                        
+                        <div class="cyber-features mt-6">
+                            <div class="feature">⚡ Real-time Neural Feedback</div>
+                            <div class="feature">🔮 3D Holographic Displays</div>
+                            <div class="feature">🌐 Quantum Entanglement Protocol</div>
+                            <div class="feature">⚛️ Multi-dimensional Processing</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cyber Services Section -->
+    <section id="services" class="section animate-zoom-in">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-cogs"></i>
+                    SYSTEM MODULES
+                </div>
+                <h2 class="section-title">CYBER SYSTEMS</h2>
+                <p class="section-subtitle">
+                    Advanced digital systems powered by quantum computing and neural networks
+                </p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card hover-lift">
+                    <div class="card-header" style="background: linear-gradient(45deg, #00f5ff, #0080ff);">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>NEURAL CODING</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Advanced programming with AI-assisted development, quantum algorithms, and neural network integration.</p>
+                        <div class="tech-tags">
+                            <span>Quantum JS</span>
+                            <span>Neural Python</span>
+                            <span>AI React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card hover-lift">
+                    <div class="card-header" style="background: linear-gradient(45deg, #8a2be2, #ff1493);">
+                        <div class="service-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h3>HOLOGRAPHIC UI</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>3D interfaces that exist in virtual space, providing immersive user experiences beyond traditional screens.</p>
+                        <div class="tech-tags">
+                            <span>WebGL 3D</span>
+                            <span>AR/VR</span>
+                            <span>Holo-CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card hover-lift">
+                    <div class="card-header" style="background: linear-gradient(45deg, #39ff14, #00ff80);">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>QUANTUM AI</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Artificial intelligence systems that operate on quantum principles, processing infinite possibilities simultaneously.</p>
+                        <div class="tech-tags">
+                            <span>Quantum ML</span>
+                            <span>Neural Nets</span>
+                            <span>AI Core</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card hover-lift">
+                    <div class="card-header" style="background: linear-gradient(45deg, #ff4500, #ffd700);">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>CYBER DEFENSE</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Advanced security protocols using quantum encryption and neural threat detection algorithms.</p>
+                        <div class="tech-tags">
+                            <span>Quantum Encrypt</span>
+                            <span>Neural Security</span>
+                            <span>Cyber Shield</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card hover-lift">
+                    <div class="card-header" style="background: linear-gradient(45deg, #ff1493, #8a2be2);">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>WARP DEPLOYMENT</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Instantaneous deployment across multiple dimensions using quantum tunneling protocols.</p>
+                        <div class="tech-tags">
+                            <span>Quantum Deploy</span>
+                            <span>Multi-verse</span>
+                            <span>Warp Speed</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card hover-lift">
+                    <div class="card-header" style="background: linear-gradient(45deg, #00f5ff, #39ff14);">
+                        <div class="service-icon">
+                            <i class="fas fa-infinity"></i>
+                        </div>
+                        <h3>INFINITE SCALE</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Unlimited scaling capabilities through quantum computing and neural network optimization.</p>
+                        <div class="tech-tags">
+                            <span>∞ Compute</span>
+                            <span>Auto Scale</span>
+                            <span>Quantum Ops</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section animate-slide-up">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-hologram"></i>
+                    DIGITAL ARTIFACTS
+                </div>
+                <h2 class="section-title">QUANTUM PROJECTS</h2>
+                <p class="section-subtitle">
+                    Witness our digital creations that exist in the space between reality and imagination
+                </p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card hover-scale project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop" alt="Cyber Matrix Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4>NEURAL DASHBOARD</h4>
+                                <p>Real-time quantum data visualization</p>
+                                <a href="#" class="cyber-btn">VIEW HOLOGRAM</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card hover-scale project-card">
+                    <div class="project-image">
+                        <img src="https://aayushkin.github.io/2game/logo.webp" alt="Quantum Game">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4>TOWER BLOCKS</h4>
+                                <p>Physics-defying quantum game</p>
+                                <a href="https://aayushkin.github.io/2game/" target="_blank" class="cyber-btn">PLAY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card hover-scale project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=300&fit=crop" alt="AI Neural Network">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4>AI CONSCIOUSNESS</h4>
+                                <p>Self-aware neural network system</p>
+                                <a href="#" class="cyber-btn">INTERFACE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-satellite-dish"></i>
+                    NEURAL INTERFACE
+                </div>
+                <h2 class="section-title">ESTABLISH CONNECTION</h2>
+                <p class="section-subtitle">
+                    Initiate quantum entanglement protocol to establish neural link communication
+                </p>
+            </div>
+            
+            <div class="grid grid-2 gap-12">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <h4>QUANTUM COORDINATES</h4>
+                        <p>Dimension: Earth-616<br>Location: Kathmandu, Nepal</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <h4>NEURAL FREQUENCY</h4>
+                        <p>info@aayush-tech07.website<br>projects@aayush-tech07.website</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>TEMPORAL STATUS</h4>
+                        <p>Always Online<br>24/7 Quantum Processing</p>
+                    </div>
+                    
+                    <div class="social-matrix mt-8">
+                        <h4>CONNECT TO MATRIX</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/Aayushkin" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/aayush-bhandari-432093353/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/aayush_tech07" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/aayushtech07/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h3>NEURAL TRANSMISSION</h3>
+                    </div>
+                    <div class="card-body">
+                        <form class="cyber-form">
+                            <div class="form-group">
+                                <label>Identity Code</label>
+                                <input type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Neural Address</label>
+                                <input type="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Mission Objective</label>
+                                <select required>
+                                    <option>Select Protocol</option>
+                                    <option>Neural Coding</option>
+                                    <option>Holographic UI</option>
+                                    <option>Quantum AI</option>
+                                    <option>Cyber Defense</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Transmission Data</label>
+                                <textarea rows="4" required placeholder="Transmit your quantum message..."></textarea>
+                            </div>
+                            <button type="submit" class="cyber-btn full-width">
+                                TRANSMIT DATA <i class="fas fa-satellite-dish"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cyber Tools Section -->
+    <section id="tools" class="section animate-fade-in">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-tools"></i>
+                    QUANTUM TOOLS MATRIX
+                </div>
+                <h2 class="section-title">CYBER UTILITIES & CALCULATORS</h2>
+                <p class="section-subtitle">Access advanced computational tools and digital utilities powered by quantum algorithms</p>
+            </div>
+            
+            <div class="tools-grid">
+                <!-- Calculator Tool -->
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <h3><i class="fas fa-calculator"></i> QUANTUM CALCULATOR</h3>
+                        <div class="tool-status">ONLINE</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="calculator">
+                            <div class="calc-display">
+                                <div class="calc-history" id="calcHistory"></div>
+                                <div class="calc-current" id="calcCurrent">0</div>
+                            </div>
+                            <div class="calc-buttons">
+                                <button class="calc-btn calc-clear" onclick="clearCalculator()">C</button>
+                                <button class="calc-btn calc-delete" onclick="deleteLastChar()">⌫</button>
+                                <button class="calc-btn calc-operator" onclick="setOperator('/')">/</button>
+                                <button class="calc-btn calc-operator" onclick="setOperator('*')">×</button>
+                                
+                                <button class="calc-btn calc-number" onclick="appendToCalc('7')">7</button>
+                                <button class="calc-btn calc-number" onclick="appendToCalc('8')">8</button>
+                                <button class="calc-btn calc-number" onclick="appendToCalc('9')">9</button>
+                                <button class="calc-btn calc-operator" onclick="setOperator('-')">-</button>
+                                
+                                <button class="calc-btn calc-number" onclick="appendToCalc('4')">4</button>
+                                <button class="calc-btn calc-number" onclick="appendToCalc('5')">5</button>
+                                <button class="calc-btn calc-number" onclick="appendToCalc('6')">6</button>
+                                <button class="calc-btn calc-operator" onclick="setOperator('+')">+</button>
+                                
+                                <button class="calc-btn calc-number" onclick="appendToCalc('1')">1</button>
+                                <button class="calc-btn calc-number" onclick="appendToCalc('2')">2</button>
+                                <button class="calc-btn calc-number" onclick="appendToCalc('3')">3</button>
+                                <button class="calc-btn calc-equals" onclick="calculateResult()">=</button>
+                                
+                                <button class="calc-btn calc-number calc-zero" onclick="appendToCalc('0')">0</button>
+                                <button class="calc-btn calc-number" onclick="appendToCalc('.')">.</button>
+                                <button class="calc-btn calc-operator" onclick="setOperator('%')">%</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weather Widget -->
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <h3><i class="fas fa-cloud-sun"></i> WEATHER MATRIX</h3>
+                        <div class="tool-status">ONLINE</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="weather-widget">
+                            <div class="weather-search">
+                                <input type="text" id="weatherCity" placeholder="Enter city name..." class="weather-input">
+                                <button onclick="getWeather()" class="weather-btn">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                            <div class="weather-display" id="weatherDisplay">
+                                <div class="weather-placeholder">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p>Enter a city to get weather data</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unit Converter -->
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <h3><i class="fas fa-exchange-alt"></i> QUANTUM CONVERTER</h3>
+                        <div class="tool-status">ONLINE</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="converter">
+                            <div class="converter-type">
+                                <select id="converterType" onchange="updateConverter()" class="converter-select">
+                                    <option value="length">Length</option>
+                                    <option value="weight">Weight</option>
+                                    <option value="temperature">Temperature</option>
+                                    <option value="area">Area</option>
+                                    <option value="volume">Volume</option>
+                                </select>
+                            </div>
+                            <div class="converter-inputs">
+                                <div class="converter-input">
+                                    <input type="number" id="fromValue" oninput="convertUnits()" class="converter-field">
+                                    <select id="fromUnit" onchange="convertUnits()" class="converter-unit"></select>
+                                </div>
+                                <div class="converter-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="converter-input">
+                                    <input type="number" id="toValue" readonly class="converter-field">
+                                    <select id="toUnit" onchange="convertUnits()" class="converter-unit"></select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Password Generator -->
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <h3><i class="fas fa-key"></i> NEURAL PASSWORD</h3>
+                        <div class="tool-status">ONLINE</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="password-generator">
+                            <div class="password-display">
+                                <input type="text" id="generatedPassword" readonly class="password-field">
+                                <button onclick="copyPassword()" class="copy-btn" title="Copy to clipboard">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </div>
+                            <div class="password-options">
+                                <label class="password-option">
+                                    <input type="checkbox" id="includeUppercase" checked> Uppercase
+                                </label>
+                                <label class="password-option">
+                                    <input type="checkbox" id="includeLowercase" checked> Lowercase
+                                </label>
+                                <label class="password-option">
+                                    <input type="checkbox" id="includeNumbers" checked> Numbers
+                                </label>
+                                <label class="password-option">
+                                    <input type="checkbox" id="includeSymbols" checked> Symbols
+                                </label>
+                            </div>
+                            <div class="password-length">
+                                <label>Length: <span id="passwordLength">16</span></label>
+                                <input type="range" id="lengthSlider" min="8" max="64" value="16" oninput="updatePasswordLength()">
+                            </div>
+                            <button onclick="generatePassword()" class="generate-btn">
+                                <i class="fas fa-sync-alt"></i> GENERATE
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Color Picker -->
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <h3><i class="fas fa-palette"></i> HOLOGRAPHIC COLORS</h3>
+                        <div class="tool-status">ONLINE</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="color-picker">
+                            <div class="color-display">
+                                <div class="color-preview" id="colorPreview"></div>
+                                <div class="color-info">
+                                    <span id="colorHex">#00f5ff</span>
+                                    <span id="colorRgb">rgb(0, 245, 255)</span>
+                                </div>
+                            </div>
+                            <div class="color-controls">
+                                <input type="color" id="colorInput" value="#00f5ff" onchange="updateColor()" class="color-input">
+                                <div class="color-sliders">
+                                    <div class="color-slider">
+                                        <label>R: <span id="redValue">0</span></label>
+                                        <input type="range" id="redSlider" min="0" max="255" value="0" oninput="updateColorFromSliders()">
+                                    </div>
+                                    <div class="color-slider">
+                                        <label>G: <span id="greenValue">245</span></label>
+                                        <input type="range" id="greenSlider" min="0" max="255" value="245" oninput="updateColorFromSliders()">
+                                    </div>
+                                    <div class="color-slider">
+                                        <label>B: <span id="blueValue">255</span></label>
+                                        <input type="range" id="blueSlider" min="0" max="255" value="255" oninput="updateColorFromSliders()">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quantum Calendar -->
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <h3><i class="fas fa-calendar-alt"></i> QUANTUM CALENDAR</h3>
+                        <div class="tool-status">ONLINE</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="calendar-widget">
+                            <div class="calendar-header">
+                                <button onclick="previousMonth()" class="calendar-nav-btn">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+                                <div class="current-month" id="currentMonth">January 2025</div>
+                                <button onclick="nextMonth()" class="calendar-nav-btn">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                            
+                            <div class="calendar-weekdays">
+                                <div class="weekday">Sun</div>
+                                <div class="weekday">Mon</div>
+                                <div class="weekday">Tue</div>
+                                <div class="weekday">Wed</div>
+                                <div class="weekday">Thu</div>
+                                <div class="weekday">Fri</div>
+                                <div class="weekday">Sat</div>
+                            </div>
+                            
+                            <div class="calendar-days" id="calendarDays">
+                                <!-- Days will be populated by JavaScript -->
+                            </div>
+                            
+                            <div class="calendar-actions">
+                                <button onclick="goToToday()" class="calendar-btn">
+                                    <i class="fas fa-crosshairs"></i> Today
+                                </button>
+                                <button onclick="addEvent()" class="calendar-btn">
+                                    <i class="fas fa-plus"></i> Add Event
+                                </button>
+                                <button onclick="viewEvents()" class="calendar-btn">
+                                    <i class="fas fa-list"></i> Events
+                                </button>
+                            </div>
+                            
+                            <!-- Event Modal -->
+                            <div id="eventModal" class="event-modal">
+                                <div class="event-modal-content">
+                                    <div class="event-modal-header">
+                                        <h3>Add New Event</h3>
+                                        <button onclick="closeEventModal()" class="close-btn">
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                    <div class="event-modal-body">
+                                        <div class="form-group">
+                                            <label>Event Title:</label>
+                                            <input type="text" id="eventTitle" placeholder="Enter event title">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Date:</label>
+                                            <input type="date" id="eventDate">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Time:</label>
+                                            <input type="time" id="eventTime">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Description:</label>
+                                            <textarea id="eventDescription" placeholder="Event description"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Color:</label>
+                                            <select id="eventColor">
+                                                <option value="#00f5ff">Cyan</option>
+                                                <option value="#ff0080">Magenta</option>
+                                                <option value="#00ff80">Green</option>
+                                                <option value="#ff8000">Orange</option>
+                                                <option value="#8000ff">Purple</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="event-modal-footer">
+                                        <button onclick="saveEvent()" class="save-btn">Save Event</button>
+                                        <button onclick="closeEventModal()" class="cancel-btn">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text Tools -->
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <h3><i class="fas fa-font"></i> TEXT MATRIX</h3>
+                        <div class="tool-status">ONLINE</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="text-tools">
+                            <div class="text-input">
+                                <textarea id="textInput" placeholder="Enter your text here..." class="text-area"></textarea>
+                            </div>
+                            <div class="text-actions">
+                                <button onclick="textToUpperCase()" class="text-btn">UPPERCASE</button>
+                                <button onclick="textToLowerCase()" class="text-btn">lowercase</button>
+                                <button onclick="textToTitleCase()" class="text-btn">Title Case</button>
+                                <button onclick="reverseText()" class="text-btn">Reverse</button>
+                                <button onclick="countCharacters()" class="text-btn">Count</button>
+                                <button onclick="clearText()" class="text-btn">Clear</button>
+                            </div>
+                            <div class="text-stats" id="textStats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Characters:</span>
+                                    <span class="stat-value" id="charCount">0</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Words:</span>
+                                    <span class="stat-value" id="wordCount">0</span>
+                                </div>
+                                <div class="stat-label">Lines:</span>
+                                    <span class="stat-value" id="lineCount">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cyber Footer -->
+    <footer class="cyber-footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="cyber-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        AAYUSH TECH
+                    </div>
+                    <p>Transcending digital boundaries through quantum innovation and neural architecture.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>QUANTUM SYSTEMS</h4>
+                        <a href="#services">Neural Coding</a>
+                        <a href="#services">Holographic UI</a>
+                        <a href="#services">Cyber Defense</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>MATRIX ACCESS</h4>
+                        <a href="#about">Neural Network</a>
+                        <a href="#portfolio">Digital Artifacts</a>
+                        <a href="#contact">Quantum Link</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    © 2025 AAYUSH TECH | NEURAL MATRIX PROTOCOL | ALL DIMENSIONS RESERVED
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Cyber Beast JavaScript -->
+    <script src="assets/js/ultimate-beast.js"></script>
+</body>
+</html>
